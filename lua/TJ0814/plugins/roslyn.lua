@@ -3,12 +3,9 @@ return{
 	{-- enabled = false,
     -- 'jmederosalvarado/roslyn.nvim',
     'seblj/roslyn.nvim',
-    ft = "cs",
-    lazy = true,
     dependencies = {
       {
         'tris203/rzls.nvim',
-        dev = true,
         opts = {
           on_attach = require 'TJ0814.lspattach',
           capabilities = require("TJ0814.lspcapabilities"),
